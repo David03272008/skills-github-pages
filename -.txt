@@ -1,0 +1,153 @@
+<head>
+  <meta charset="UTF-8">
+  <title>Formula 1</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .titulo {
+      background-image: url('Imagen 1.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .titulo h1 {
+      font-family: Impact, sans-serif;
+      font-size: 45px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .descripcion {
+      background-color: #add8e6;
+      padding: 20px;
+      font-size: 18px;
+    }
+
+    .equipos-section {
+      padding: 20px;
+    }
+
+    .equipos-section h2 {
+      font-family: Impact, sans-serif;
+      font-size: 36px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    td {
+      border: 1px solid #ddd;
+      text-align: center;
+      padding: 10px;
+      vertical-align: top;
+    }
+
+    td img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      margin-top: 10px;
+    }
+
+    td h3 {
+      margin: 0;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="titulo">
+    <h1>Formula 1</h1>
+  </div>
+
+  <div class="descripcion">
+    <h2>¿Qué es?</h2>
+    <p>
+      La Formula 1 es la competición de automovilismo más conocida y prestigiosa del mundo.
+      Hay distintas categorías que van hacia abajo: está la Formula 1, la Formula 2, la Formula 3 y la Formula Academy.
+    </p>
+  </div>
+
+  <div class="equipos-section">
+    <h2>EQUIPOS</h2>
+    <table>
+      <tr>
+        <td>
+          <h3>McLaren</h3>
+          <img src="Imagen 2.jpg" alt="McLaren">
+        </td>
+        <td>
+          <h3>Mercedes</h3>
+          <img src="Imagen 10.jpg" alt="Mercedes">
+        </td>
+        <td>
+          <h3>Red Bull Racing</h3>
+          <img src="Imagen 3.jpg" alt="Red Bull Racing">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>Ferrari</h3>
+          <img src="Imagen 4.jpg" alt="Ferrari">
+        </td>
+        <td>
+          <h3>Williams</h3>
+          <img src="Imagen 5.jpg" alt="Williams">
+        </td>
+        <td>
+          <h3>Haas</h3>
+          <img src="Imagen 6.jpg" alt="Haas">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>Aston Martin</h3>
+          <img src="Imagen 7.jpg" alt="Aston Martin">
+        </td>
+        <td>
+          <h3>Racing Bulls</h3>
+          <img src="Imagen 8.jpg" alt="Racing Bulls">
+        </td>
+        <td>
+          <h3>Alpine</h3>
+          <img src="Imagen 9.jpg" alt="Alpine">
+        </td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
